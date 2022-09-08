@@ -1,11 +1,19 @@
 
+insert into actor (first_name, last_name)
+    values (" Dwayne", "Johnson"),
+         (" Kevin", "Hart"),
+          (" Scarlet", "Johnson");
+
+insert into movie (movie_name)
+    values ("Jumanji"),
+            ("Night School"),
+            ("Black Widow");
 
 ---Will Smith - I robot, Men in Black 1-3, Hitch
 
 --- Whoopi Goldberg - Ghost, Sarafina, Sister Act
 
 --- Demi Moore - Ghost, GI Jane, Charlie's Angels: Full Throttle
-
 create table movie(
      id integer primary key AUTOINCREMENT,
      movie_name text
